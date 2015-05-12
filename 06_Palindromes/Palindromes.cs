@@ -15,8 +15,6 @@ class Palindromes
     {
         if (word.Length == 1)
             return true;
-        if (word.Length == 0)
-            return false;
         int len = word.Length;
         for(int i=0; i<len/2; i++){
             if(word[i] != word[len-i-1])
@@ -29,13 +27,14 @@ class Palindromes
     {
         char[] delimiters = {' ', ',', '.', '?', '!' };
         SortedSet<string> palyndromes = new SortedSet<string>();
-        List<string> words = Console.ReadLine().Split(delimiters).Select(p => p.Trim()).ToList();
+        List<string> words = Console.ReadLine().
+            Split(delimiters, StringSplitOptions.RemoveEmptyEntries).
+            Select(p => p.Trim()).ToList();
 
         foreach(string word in words){              
             if (IsPalyndrome(word))
                 palyndromes.Add(word);
         }
         Console.WriteLine(string.Join(", ", palyndromes));
-        
     }   
 }

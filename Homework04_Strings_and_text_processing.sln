@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_UnicodeCharacters", "05_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Palindromes", "06_Palindromes\06_Palindromes.csproj", "{4E1BF1AC-6C53-4A90-967F-82C59CB0FBCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_LettersChangeNumbers", "07_LettersChangeNumbers\07_LettersChangeNumbers.csproj", "{9AA611D8-20AD-4D46-B1B2-F6F71A01ED4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{4E1BF1AC-6C53-4A90-967F-82C59CB0FBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E1BF1AC-6C53-4A90-967F-82C59CB0FBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E1BF1AC-6C53-4A90-967F-82C59CB0FBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA611D8-20AD-4D46-B1B2-F6F71A01ED4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA611D8-20AD-4D46-B1B2-F6F71A01ED4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA611D8-20AD-4D46-B1B2-F6F71A01ED4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA611D8-20AD-4D46-B1B2-F6F71A01ED4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
