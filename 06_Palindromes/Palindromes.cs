@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-//
-//using System.Text;
-//using System.Threading.Tasks;
 
 /*
  * Write a program that extracts from a given text all palindromes, e.g. ABBA, lamal, exe 
@@ -40,7 +37,5 @@ class Palindromes
         }
         Console.WriteLine(string.Join(", ", palyndromes));
         
-    }
-
-   
+    }   
 }
